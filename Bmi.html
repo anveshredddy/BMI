@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <!-- Include JS files -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="js.js"></script> 
+    <style>
+        #but{
+            background-image: url("math2.png");
+        }
+        #bmi{
+            color:white;
+
+        }
+        #h{
+            color:white;
+        
+        }
+        #w{
+            color:white;
+        }
+        #result{
+            color:white;
+        }
+        
+        </style>
+</head> 
+  
+<body id="but"> 
+    <div class="container"> 
+        <h1 id="bmi">BMI Calculator</h1> 
+  
+        <p id="h">Height (in cm)</p> 
+  
+        <input type="text" id="height"> 
+  
+        <p id="w">Weight (in kg)</p> 
+  
+        <input type="text" id="weight"> 
+  
+        <button id="btn" >Calculate</button> <br>
+  
+        <div id="result"></div> 
+    </div> 
+</body> 
+  
+</html> 
